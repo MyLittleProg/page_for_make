@@ -1,0 +1,103 @@
+@media(max-width:1199px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(8,minmax(56px, 88px)) !important;
+        grid-column-gap: 32px !important;
+        max-width: 928px !important;
+        min-width: 672px !important;
+    }
+    .header__menu{
+        grid-column-start: 1 !important;
+        grid-column-end: 9 !important;
+        grid-template-columns: repeat(2,1fr) !important;
+     }
+    .sidebar{
+        grid-column-start: 1 !important;
+        grid-column-end: 3 !important;
+    }
+    .content{
+        display:  block !important;
+        grid-column-start: 3 !important;
+        grid-column-end: 9 !important;
+        width: calc(100% - 20px) !important;
+    }
+    .inputs {
+        margin: 62px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-column-gap: 32px;
+    }
+    .titles__title-desk::before{
+        width: 570px !important;
+    }
+    #grid{
+        img{
+            width: 565px;
+        }
+    }
+    #UI{
+        .e-mail-input {
+            width: 260px;
+        }
+        .in-input{
+            margin: 108px 0 0 0;
+        }
+        .select_mod{
+            margin-top: 180px;
+        }
+        .__select{
+            width: 260px;
+        }
+    }
+}
+@media(max-width:800px){
+    .titles__title-desk::before{
+        width: 525px !important;
+    }
+    #parting__words {
+        width: 100%;
+        .parting__words-text{
+            width: 100%;
+        }
+    }
+    #grid{
+        width: 100%;
+        .grid-about {
+            width: 100%;
+        }
+    }
+    #typography{
+        width: 100%;
+        .typography__headline{
+            width: 250px;
+            .typography__headline-text{
+                width:140px;
+                margin:60px 0px 0 0;
+            }
+            td{
+                h1{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #UI{
+        width: 100%;
+        .accordion__body{
+            width: 99%;
+        }
+        .collapse{
+            width: 100%;
+        }
+        .inputs{
+            grid-column-gap: 16px;
+        }
+    }
+}
+@media(max-width:770px){
+    #grid{
+        img{
+            width: 500px;
+        }
+    }
+}

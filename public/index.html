@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Frontend-developer</title>    
+</head>
+<body>
+    
+        <div class="menu">
+            <div class="container">
+                <div class="menu-info">
+
+                    <div class="menu-info__head">
+                        <img src="../src/assets/img/logo.svg" alt="logo">
+                    </div>
+
+                    <div class="menu-info__content">
+                        <div class="p-ico">
+                            <p class="P_14">Задание выполнил</p>
+                            <div class="ico-exit"></div>
+                        </div>
+                        <h2>
+                            Корпатенков<br>
+                            Антон Евгеньевич
+                        </h2>
+                        <p class="P_16">
+                            Frontend-разработчик/React-разработчик<br>
+                        </p>
+                        <h4>
+                            +7 (908) 951-07-15
+                        </h4>
+
+                        <div class="menu-info__social-link">
+                            <a href="https://t.me/antonk_dev" target="_blank">
+                                <span>
+                                    <img src="../src/assets/img/link.PNG" alt="link-ico">
+                                </span>
+                            </a>
+                            <a href="https://t.me/antonk_dev" target="_blank">
+                                <h4>Мессенджер</h4>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-exit">
+                    <img src="../src/assets/img/ico_menu_close.svg" 
+                    alt="exit-ico" class="ico-exit-image">
+                </div>
+
+            </div>
+        </div>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="header__menu">
+                <div class="logo">
+                    <div class="logo-info">
+                        <img src="../src/assets/img/logo.svg" alt="logo">
+                        <div class="logo-info__info">
+                        <span><p>Корпатенков</p></span>
+                        <p>Антон Евгеньевич</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="header__menu-menu-icon">
+                    <img src="../src/assets/img/ico_menu.svg" alt="menu-icon">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+    
+        <div class="container">
+
+            <aside class="sidebar">
+                <nav class="sidebar__menu">
+                    <ul>
+                        <li class="sidebar__menu-words">
+                            <a href="#parting__words" class="active">Напутственное слово</a>
+                        </li>
+                        <li class="sidebar__menu-grid">
+                            <a href="#grid">Сетка</a>
+                        </li>
+                        <li class="sidebar__menu-typography">
+                            <a href="#typography">Типографика</a>
+                        </li>
+                        <li class="sidebar__menu-ui">
+                            <a href="#UI">UI</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <div class="content">
+
+                    <h1>Тестовое задание</h1>
+
+                    <p class="P_Lead level">Уровень: junior</p>
+
+                    <section id="parting__words">
+
+                    <p class="P_16 parting__words-text">Привет! Твоё тестовое задание — грамотно заверстать эту прекрасную страничку. 
+                    В шапке страницы укажи своё ФИО, так всем будет удобнее. В менюхе под иконкой бургером
+                    мы хотели бы также видеть твои данные. Ну что, поехали?</p>
+
+                    </section>
+
+                <section class="grid" id="grid">
+
+                    <h2>Сетка</h2>
+
+                    <p class="P_16 grid-about">Задание предполагает адаптивную вёрстку. 
+                    Используется 3 состояния в зависимости от устройства. Сетка «резиновая» — переменной ширины.</p>
+                    
+                    <h3 class="h3-desktop">Десктоп (1200+)</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Контент</th>
+                                <th>Колонок</th>
+                                <th>Ширина колонки</th>
+                                <th>Межколонник</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>1072-1312</td>
+                              <td>12</td>
+                              <td>60-80</td>
+                              <td>32</td>
+                            </tr>
+                            
+                          </tbody>
+                    </table>
+                   
+
+                    <img src="../src/assets/img/pic_desctop.svg" alt="desktop">
+
+                    <h3 class="h3-tab">Планшет (736+)</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Контент</th>
+                                <th>Колонок</th>
+                                <th>Ширина колонки</th>
+                                <th>Межколонник</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>672-928</td>
+                              <td>8</td>
+                              <td>56-88</td>
+                              <td>32</td>
+                            </tr>
+                            
+                          </tbody>
+                    </table>
+
+                    <img src="../src/assets/img/pic_tab.svg" alt="tab">
+
+
+                    <h3 class="h3-mob">Телефон (320+)</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Контент</th>
+                                <th>Колонок</th>
+                                <th>Ширина колонки</th>
+                                <th>Межколонник</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>296-424</td>
+                              <td>4</td>
+                              <td>56-88</td>
+                              <td>24</td>
+                            </tr>
+                            
+                          </tbody>
+                    </table>
+
+                    <img src="../src/assets/img/pic_mob.svg" alt="mobil">
+                </section>
+
+                <section class="typography" id="typography">
+                    <h2>Типографика</h2>
+
+                    <p class="typography__about P_16">
+                        Используется шрифт Graphik. На телефонах стили типографики
+                        переопределяются
+                    </p>
+
+                    <div class="typography__titles">
+                        <div class="titles">
+                            <h4 class="titles__title-desk">Десктоп</h4>
+                            <h4 class="titles__title-mob">Телефон</h4>
+                        </div>
+
+                        <table>
+                           <tbody>
+                            <tr class="typography__headline">
+                                <td class="typography__headline-p-h1">
+                                    <p class="P_16 typography__headline-text">Заголовок H1, 48/56, bold</p>
+                                </td>
+                                <td><h1>Текст заголовка</h1></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td class="typography__headline-p-h2">
+                                    <p class="P_16 typography__headline-text">Заголовок H2, 32/40, bold</p>
+                                </td>
+                                <td><h2>Текст заголовка</h2></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td class="typography__headline-p-h3">
+                                    <p class="P_16 typography__headline-text">Заголовок H3, 24/32, medium</p>
+                                </td>
+                                <td><h3>Текст заголовка</h3></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td><p class="P_16 typography__headline-text">Заголовок H4, 18/28, medium</p></td>
+                                <td><h4>Текст заголовка</h4></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td class="typography__headline-p-lead">
+                                    <p class="P_16 typography__headline-text">Лид P_Lead, 24/32, regular</p>
+                                </td>
+                                <td><p class="P_Lead">Текст заголовка</p></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td><p class="P_16 typography__headline-text">Крупный текст P_18, 18/28, regular</p></td>
+                                <td><p class="P_18">Текст заголовка</p></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td><p class="P_16 typography__headline-text">Основной текст P_16, 16/24, regular</p></td>
+                                <td><p class="P_18">Текст заголовка</p></td>
+                            </tr>
+                            <tr class="typography__headline">
+                                <td><p class="P_16 typography__headline-text">Впомогательный текст P_14, 14/20, regular</p></td>
+                                <td><p class="P_14">Текст заголовка</p></td>
+                            </tr>
+                           </tbody>
+                        </table>
+
+                    </div>
+
+                </section>
+
+                <section class="UI" id="UI">
+
+                    <h2>UI</h2>
+
+                    <h3 class="text-fields">Текстовое поле</h3>
+
+                    <div class="inputs">
+
+                        <span>
+                            <p>E-mail</p>
+                            <input type="text" placeholder="E-mail" class="e-mail-input">
+                        </span>
+
+                        <span>
+                            <p class="hover">Ховер</p>
+                            <input type="text" placeholder="E-mail" class="e-mail-input mod-hover">
+                        </span>
+
+                        <span class="in-input">
+                            <p>E-mail</p>
+                            <p class="inpt">Ввод</p>
+                            <input type="text" placeholder="E-mail" class="e-mail-input mod-input"
+                            value="office@make.st">
+                        </span>
+
+                        <span class="error-input">
+                            <p class="error">Ошибка</p>
+                            <p class="error-email">E-mail</p>
+                            <input type="text" placeholder="E-mail" class="e-mail-input mod-error"
+                            value="office@make.st">
+                            <p class="error-text">
+                                Текст ошибки
+                            </p>
+                        </span>
+
+                    </div>
+
+                    <h3 class="drop-down-list">Выпадающий список</h3>
+
+                    <p class="P_16">Компонент состоит из текстового поля и выпадающей подсказки</p>
+
+                    <div class="inputs">
+
+                        <div class="__select" data-state="">
+                            <span class="choose-your-destiny"><div class="__select__title" data-default="Option 0">Выберите что-нибудь</div></span>
+                            <div class="__select__content">
+                              <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                              <label for="singleSelect0" class="__select__label">null</label>
+                              <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect1" class="__select__label">Первый стул</label>
+                              <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect"/>
+                              <label for="singleSelect2" class="__select__label">Второй стул</label>
+                              <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect3" class="__select__label">Выбранный пункт</label>
+                              <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect4" class="__select__label">Теорема Эскобара</label>
+                            </div>
+                          </div>
+
+                          <div class="__select" data-state="">
+                            <div class="__select__title" data-default="Option 0" style="border-color: #3E29E3;">Выберите что-нибудь</div>
+                            <div class="__select__content">
+                              <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                              <label for="singleSelect0" class="__select__label">null</label>
+                              <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect1" class="__select__label">Первый стул</label>
+                              <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                              <label for="singleSelect2" class="__select__label">Второй стул</label>
+                              <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect3" class="__select__label">Выбранный пункт</label>
+                              <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect4" class="__select__label">Теорема Эскобара</label>
+                            </div>
+                          </div>
+
+                          <div class="__select select_mod" data-state="active">
+                            <span class="choose-your-destiny">
+                                <div class="__select__title" data-default="Option 0">Выбранный пункт</div>
+                            </span>
+                            <div class="__select__content">
+                              <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect"/>
+                              <label for="singleSelect0" class="__select__label">null</label>
+                              <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect1" class="__select__label">Первый стул</label>
+                              <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect3" class="__select__label">Второй стул</label>
+                              <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" checked/>
+                              <label for="singleSelect4" class="__select__label">Выбранный пункт</label>
+                              <input id="singleSelect5" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect5" class="__select__label" style="background-color:#3E29E3; color: white;">Теорема Эскобара</label>
+                            </div>
+                          </div>
+                    </div>
+
+                    <h3 class="btns-list">Кнопка</h3>
+
+                    <div class="inputs_mod">
+
+                        <button class="btns-send"><span>Оправить</span></button>
+                        <button class="btns-send btn-hover"><span>Оправить</span></button>
+                        <button class="btns-send btn-click"><span>Оправить</span></button>
+                        <button class="btn-disabled"><span>Оправить</span></button>
+
+                    </div>
+
+                    <h3 class="checkbox-radio-btns">Чекбокс, радиобаттон</h3>
+                    <div class="inputs">
+
+                        <div>
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="cb1"> 
+                                <label class="label" for="cb1">Выбери меня</label>
+                            </div>
+                            
+                            <div class="checkbox checkbox-hover">
+                                <input type="checkbox" id="cb2">
+                                <label class="label" for="cb2">Выбери меня</label>
+                            </div>
+                            
+                            <div class="checkbox">
+                                <input type="checkbox" id="cb3"  checked>
+                                <label class="label" for="cb3">Птица счастья завтрашнего дня</label>
+                            </div>
+                
+                        </div>
+
+                        <div>
+
+                            <div class="radio">
+                                <input type="radio" name="rb" id="rb1">
+                                <label class="label" for="rb1">Пластмассовый мир победил</label>
+                            </div>
+                            
+                            <div class="radio radio-hover">
+                                <input type="radio" name="rb" id="rb2"> 
+                                <label class="label" for="rb2">Может оказался сильней</label>
+                            </div>
+                            
+                            <div class="radio">
+                                <input type="radio" name="rb" id="rb3"  checked>
+                                <label class="label" for="rb3">Последний кораблик остыл</label>
+                            </div>
+                    
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 100px;">Аккордеон</h3>
+
+                    <div class="accordion">
+
+                        <div class="accordion__item">
+
+                            <div class="accordion__header">
+                            <h4>Аккордеон</h4>
+                            </div>
+                            <div class="accordion__body">
+                                <p class="P_16">
+                                Гоpдость полными вагонами золотыми погонами
+                                С юга дyют молодые вет…
+                                Pазpывая в клочья облака не забыли шлют из далека
+                                С дома мама И не последняя любовь
+                                А по небy бегyт видишь чьи-то следы
+                                Это может быть ты это может быть я
+                                Это может наш дрyг
+                                Это может нам поют свои
+                                </p>
+                            </div>
+  
+                        </div>
+
+                        <div class="accordion__item accordion-hover">
+                            <div class="accordion__header">
+                            <h4>Аккордеон</h4>
+                            </div>
+                            <div class="accordion__body P_16">
+                                Гоpдость полными вагонами золотыми погонами
+                                С юга дyют молодые вет…
+                                Pазpывая в клочья облака не забыли шлют из далека
+                                С дома мама И не последняя любовь
+                                А по небy бегyт видишь чьи-то следы
+                                Это может быть ты это может быть я
+                                Это может наш дрyг
+                                Это может нам поют свои
+                            </div>
+  
+                        </div>
+
+                        <div class="accordion__item accordion__item_show">
+
+                          <div class="accordion__header">
+                            <h4>Аккордеон</h4>
+                          </div>
+                          <div class="accordion__body P_16">
+                            Гоpдость полными вагонами золотыми погонами<br>
+                            С юга дyют молодые вет…<br>
+                            Pазpывая в клочья облака не забыли шлют из далека<br>
+                            С дома мама И не последняя любовь<br>
+                            А по небy бегyт видишь чьи-то следы<br>
+                            Это может быть ты это может быть я<br>
+                            Это может наш дрyг<br>
+                            Это может нам поют свои
+                          </div>
+                        </div>
+                     
+                    </div>
+
+                </section>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer><p class="P_14">Победа?	&#128540;</p></footer>
+
+</body>
+</html>

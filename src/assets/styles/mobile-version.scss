@@ -1,0 +1,185 @@
+@media(max-width:736px){
+    .container{
+        grid-template-columns: repeat(4,minmax(56px, 88px)) !important;
+        grid-column-gap: 24px !important;
+        max-width: 430px !important;
+        min-width: 296px !important;
+    }
+    .header__menu{
+        grid-column-start: 1 !important;
+        grid-column-end: 5 !important;
+        grid-template-columns: repeat(2,1fr) !important;
+        .logo-info__info {
+            p{
+                width: 122px;
+            }
+        }
+     }
+    .sidebar{
+        display: none !important;
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+    }
+    .content{
+        display: block;
+        grid-column-start: 1 !important;
+        grid-column-end: 5 !important;
+        margin: 48px 0 0 0 !important;
+        padding: 0 0 0 10px;
+        h1{
+            width: 312px;
+        }
+        width: calc(100% - 10px) !important;
+    }
+    .inputs {
+        margin: 62px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-column-gap: 32px;
+    }
+    h1{
+        font-family: Graphik-LCG-bold;
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    h2{
+        font-family: Graphik-LCG-bold;
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+    h3{
+        font-family: Graphik-LCG-medium;
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    h4{
+        font-family: Graphik-LCG-medium;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .P_Lead{
+        font-family:Graphik-LCG-regular ;
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    .P_18{
+        font-family:Graphik-LCG-regular ;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .P_16{
+        font-family:Graphik-LCG-regular ;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .P_14{
+        font-family: Graphik-LCG-regular;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #parting__words {
+        width: 100% !important;
+        .parting__words-text{
+            width: 100% !important;
+        }
+    }
+    #grid{
+        width: 100%;
+        .grid-about {
+            width: 100% !important;
+        }
+        .h3-desktop {
+            margin: 100px 0 0 0 !important;
+        }
+        img{
+            width: 360px;
+        }
+        table{
+            tbody{
+                tr{
+                    td{
+                        height: 71px;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    #typography{
+        width: 100%;
+        .titles__title-desk{
+            opacity: 0.5;
+        }
+        .titles__title-mob{
+            opacity: 1;
+        }
+        .titles__title-mob::after{
+            visibility: visible;
+        }
+        .titles__title-desk::after{
+            visibility: hidden;
+        }
+        .typography__headline{
+            width: 250px !important;
+            .typography__headline-text{
+                width:140px;
+                margin:60px 0px 0 0;
+            }
+            td{
+                h1{
+                    width: 100%;
+                }
+            }
+        }
+        .titles__title-desk::before {
+            width: 80% !important;
+        }
+    }
+    #UI{
+        width: 100%;
+        .inputs_mod{
+            display: grid;
+            grid-template-columns: repeat(1,1fr) !important;
+        }
+        .accordion__body{
+            width: 100%;
+        }
+        .collapse{
+            width: 100%;
+        }
+        .in-input{
+            margin: 0 0 0 0;
+        }
+        .error-input {
+            margin: 0 0 0 0;
+        }
+        .select_mod{
+            margin-top: 0;
+        }
+        .btn-disabled {
+            margin: 0 0 0 0;
+        }
+        .inputs{
+            margin-top: 0;
+            span{
+                margin: 108px 0 0 0;
+            }
+            .__select{
+                margin: 108px 0 0 0;
+            }
+        }
+        .inputs_mod{
+            button{
+                margin: 35px 0 0 0;
+            }
+        }
+    }
+    
+}
+@media(max-width:365px){
+    #grid{
+        img{
+            width: 300px;
+        }
+    }
+}
