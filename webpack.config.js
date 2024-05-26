@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path:path.resolve(__dirname,'build'),
         filename:'[name].[contenthash].js',
-        assetModuleFilename: 'assets/images/[name].[ext]',
+        assetModuleFilename: 'assets/images/[name][ext]',
         clean:true,
     },
     resolve:{
